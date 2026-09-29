@@ -1,0 +1,84 @@
+2026-09-29 23:15:47,155 | ERROR    | app.validator | Не удалось загрузить XSD-схему
+Traceback (most recent call last):
+  File "E:\_____Project-XML\app\validator.py", line 19, in _load_schema
+    schema_doc = etree.parse(str(SCHEMA_PATH))
+  File "src/lxml/etree.pyx", line 4063, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2257, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2283, in lxml.etree._parseDocumentFromURL
+  File "src/lxml/parser.pxi", line 2171, in lxml.etree._parseDocFromFile
+  File "src/lxml/parser.pxi", line 1396, in lxml.etree._BaseParser._parseDocFromFile
+  File "src/lxml/parser.pxi", line 775, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 893, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 815, in lxml.etree._raiseParseError
+OSError: Error reading file 'E:\_____Project-XML\app\schemas\books.xsd': failed to load external entity "file:/E:/_____Project-XML/app/schemas/books.xsd"
+2026-09-29 23:17:48,294 | ERROR    | app.validator | Не удалось загрузить XSD-схему
+Traceback (most recent call last):
+  File "E:\_____Project-XML\app\validator.py", line 19, in _load_schema
+    schema_doc = etree.parse(str(SCHEMA_PATH))
+  File "src/lxml/etree.pyx", line 4063, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2257, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2283, in lxml.etree._parseDocumentFromURL
+  File "src/lxml/parser.pxi", line 2171, in lxml.etree._parseDocFromFile
+  File "src/lxml/parser.pxi", line 1396, in lxml.etree._BaseParser._parseDocFromFile
+  File "src/lxml/parser.pxi", line 775, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 893, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 815, in lxml.etree._raiseParseError
+OSError: Error reading file 'E:\_____Project-XML\app\schemas\books.xsd': failed to load external entity "file:/E:/_____Project-XML/app/schemas/books.xsd"
+2026-09-29 23:26:34,010 | ERROR    | app.validator | Не удалось загрузить XSD-схему
+Traceback (most recent call last):
+  File "E:\_____Project-XML\app\validator.py", line 19, in _load_schema
+    schema_doc = etree.parse(str(SCHEMA_PATH))
+  File "src/lxml/etree.pyx", line 4063, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2257, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2283, in lxml.etree._parseDocumentFromURL
+  File "src/lxml/parser.pxi", line 2171, in lxml.etree._parseDocFromFile
+  File "src/lxml/parser.pxi", line 1396, in lxml.etree._BaseParser._parseDocFromFile
+  File "src/lxml/parser.pxi", line 775, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 893, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 815, in lxml.etree._raiseParseError
+OSError: Error reading file 'E:\_____Project-XML\app\schemas\books.xsd': failed to load external entity "file:/E:/_____Project-XML/app/schemas/books.xsd"
+2026-09-29 23:32:39,265 | ERROR    | app.validator | Не удалось загрузить XSD-схему
+Traceback (most recent call last):
+  File "E:\_____Project-XML\app\validator.py", line 19, in _load_schema
+    schema_doc = etree.parse(str(SCHEMA_PATH))
+  File "src/lxml/etree.pyx", line 4063, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2257, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2283, in lxml.etree._parseDocumentFromURL
+  File "src/lxml/parser.pxi", line 2171, in lxml.etree._parseDocFromFile
+  File "src/lxml/parser.pxi", line 1396, in lxml.etree._BaseParser._parseDocFromFile
+  File "src/lxml/parser.pxi", line 775, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 893, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 815, in lxml.etree._raiseParseError
+OSError: Error reading file 'E:\_____Project-XML\app\schemas\books.xsd': failed to load external entity "file:/E:/_____Project-XML/app/schemas/books.xsd"
+2026-09-29 23:34:41,055 | INFO     | app.validator | Загрузка XSD-схемы из: E:\_____Project-XML\app\schemas\books.xsd (существует: False)
+2026-09-29 23:34:41,055 | ERROR    | app.validator | Не удалось загрузить XSD-схему
+Traceback (most recent call last):
+  File "E:\_____Project-XML\app\validator.py", line 20, in _load_schema
+    with open(SCHEMA_PATH, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\_____Project-XML\\app\\schemas\\books.xsd'
+2026-09-30 00:31:40,669 | INFO     | app.validator | Загрузка XSD-схемы из: E:\_____Project-XML\app\schemas\books.xsd (существует: False)
+2026-09-30 00:32:27,161 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd (существует: False)
+2026-09-30 00:44:55,912 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd (существует: False)
+2026-09-30 00:48:26,984 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd.xsd (существует: False)
+2026-09-30 00:48:26,984 | INFO     | app.validator | Содержимое папки schemas: [WindowsPath('E:/Project-XML/app/schemas/books.xsd')]
+2026-09-30 00:48:26,984 | ERROR    | app.validator | Не удалось загрузить XSD-схему
+Traceback (most recent call last):
+  File "E:\Project-XML\app\validator.py", line 21, in _load_schema
+    with open(SCHEMA_PATH, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Project-XML\\app\\schemas\\books.xsd.xsd'
+2026-09-30 00:48:55,829 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd.xsd (существует: False)
+2026-09-30 00:48:55,829 | INFO     | app.validator | Содержимое папки schemas: [WindowsPath('E:/Project-XML/app/schemas/books')]
+2026-09-30 00:48:55,829 | ERROR    | app.validator | Не удалось загрузить XSD-схему
+Traceback (most recent call last):
+  File "E:\Project-XML\app\validator.py", line 21, in _load_schema
+    with open(SCHEMA_PATH, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Project-XML\\app\\schemas\\books.xsd.xsd'
+2026-09-30 00:50:22,906 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd (существует: True)
+2026-09-30 00:50:22,906 | INFO     | app.validator | Содержимое папки schemas: [WindowsPath('E:/Project-XML/app/schemas/books.xsd')]
+2026-09-30 00:51:17,216 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd (существует: True)
+2026-09-30 00:51:17,216 | INFO     | app.validator | Содержимое папки schemas: [WindowsPath('E:/Project-XML/app/schemas/books.xsd')]
+2026-09-30 00:52:03,710 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd (существует: True)
+2026-09-30 00:52:03,710 | INFO     | app.validator | Содержимое папки schemas: [WindowsPath('E:/Project-XML/app/schemas/books.xsd')]
+2026-09-30 00:52:03,710 | INFO     | app.validator | XML успешно прошёл валидацию
