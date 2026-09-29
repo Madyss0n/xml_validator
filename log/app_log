@@ -82,3 +82,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Project-XML\\app\\s
 2026-09-30 00:52:03,710 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd (существует: True)
 2026-09-30 00:52:03,710 | INFO     | app.validator | Содержимое папки schemas: [WindowsPath('E:/Project-XML/app/schemas/books.xsd')]
 2026-09-30 00:52:03,710 | INFO     | app.validator | XML успешно прошёл валидацию
+2026-09-30 01:06:45,316 | INFO     | app.validator | Загрузка XSD-схемы из: E:\Project-XML\app\schemas\books.xsd (существует: True)
+2026-09-30 01:06:45,318 | INFO     | app.validator | XML успешно прошёл валидацию
+2026-09-30 01:06:45,318 | WARNING  | app.validator | Файл не прошёл валидацию по схеме: ["<string>:5:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element '{http://mephi3.ru}publishDate': This element is not expected. Expected is ( {http://mephi3.ru}author )."]
+2026-09-30 01:06:45,318 | ERROR    | app.validator | XML не является well-formed: Opening and ending tag mismatch: name line 4 and book, line 5, column 12 (<string>, line 5)

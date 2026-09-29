@@ -15,7 +15,7 @@ class XMLValidationError(Exception):
 
 def _load_schema() -> etree.XMLSchema:
     logger.info(f"Загрузка XSD-схемы из: {SCHEMA_PATH.resolve()} (существует: {SCHEMA_PATH.exists()})")
-    logger.info(f"Содержимое папки schemas: {list(SCHEMA_PATH.parent.iterdir())}")
+# Врубаем если снова падает поиск схемы из schemas   logger.info(f"Содержимое папки schemas: {list(SCHEMA_PATH.parent.iterdir())}")
     try:
         with open(SCHEMA_PATH, "rb") as f:
             schema_doc = etree.parse(f)
